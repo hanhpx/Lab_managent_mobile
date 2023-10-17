@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Text, View, TouchableOpacity } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import AreaScreen from "./AreaScreen";
-import MaterialScreen from "./MaterialScreen";
-import PlantScreen from "./PlantScreen";
-import TaskScreen from "./TaskScreen";
-import UserScreen from "./UserScreen";
+import AreaScreen from "./Area/AreaScreen";
+import MaterialScreen from "./Material/MaterialScreen";
+import PlantScreen from "./Plant/PlantScreen";
+import TaskScreen from "./Task/TaskScreen";
+import UserScreen from "./User/UserScreen";
 import FontAwesomeIcon from "react-native-vector-icons/FontAwesome";
 import {useNavigation} from '@react-navigation/native';
 
